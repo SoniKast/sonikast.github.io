@@ -1,0 +1,104 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+} 
+
+body {
+  background-image: url('background.png'), radial-gradient(circle at center, #3248FF 2px, transparent 0), url('background-line2.png'), linear-gradient(to right, #000020, #020281, #000020);
+  background-blend-mode: overlay, overlay, normal, normal;
+  background-size: auto, 24px 24px, auto, auto;
+  background-position: center 55px, center, center, center;
+  background-repeat: no-repeat, repeat, repeat, repeat; 
+  background-attachment: fixed;
+  color: black;
+  font-family: Arial;
+}
+
+h3{
+  color: white;  
+  font-style: italic;
+  font-weight: bold;
+}
+
+a
+{
+  font-weight: bold;  
+}
+
+ul
+{
+  list-style-type: none; 
+}
+
+.wrapper .sidebar
+{
+  background-image: url("line.png"), linear-gradient(#4465fb, #0D0070);
+  border: 4px solid;
+  border-color: #3E46D8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+}
+
+.wrapper .sidebar ul li a
+{
+  display: inline-flex;
+  text-align: center;
+  color: rgb(241, 237, 237);
+  font-size: 14px;
+}
+
+.item
+{
+  color: white; 
+  font-size: 14px;
+}
+
+.title
+{
+  text-align: center;
+  color: white; 
+  font-size: 45px;
+}
+
+.notfound
+{
+  text-align:center;
+  color: white;
+}
+
+.page
+{
+  background-image: url("background-line1.png"), linear-gradient(to right, #EEEEEE, #8B8B8B);
+  position: relative; 
+  border-radius: 12px;
+  text-align: justify;
+  border: 4px solid #8B8B8B;
+  left: 55%; 
+  top: 15px; 
+  padding: 15px;
+  width: 55%;
+  color:black;
+  font-weight:bold;
+  transform: translate(-50%);
+}
+
+.page ul li
+{
+  list-style-type: disc;
+}
+
+.kastology
+{
+  background-image: url('kastology.png');
+  background-position: center;
+  background-attachment: fixed;
+  color: black;
+  font-family: Arial;
+}
