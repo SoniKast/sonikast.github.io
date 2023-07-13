@@ -1,2 +1,2 @@
 # sonikast.github.io
-My portfolio.
+Port of my neocities website to github, along with a link to the Sonic Quest website.
